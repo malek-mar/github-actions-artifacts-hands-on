@@ -24,7 +24,7 @@ jobs:
          - name : download step
            uses: actions/download-artifact@v2
            with:
-              name: hello-artifact
-              path: hello.txt
+              name: hello-artifact3
+              path: ./artifacts
          - name: Display structure of downloaded files
            run: cat  ./artifacts/hello.txt
